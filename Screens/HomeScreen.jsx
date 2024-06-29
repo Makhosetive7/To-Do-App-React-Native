@@ -40,7 +40,7 @@ export default function HomeScreen({ navigation }) {
                     }}>
                     <Button
                         title="lets go"
-                        onPress={() => navigation.navigate('to-do')}
+                        onPress={() => navigation.navigate('todo')}
                     />
                 </TouchableOpacity>
             </View>
